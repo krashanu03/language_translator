@@ -3,8 +3,7 @@ from googletrans import Translator
 # Create your views here.
 
 def translator(request):
-    
-    return render(request,"translator.html")
+   return render(request,"translator.html")
 
 def translated(request):
     text = request.GET.get('text')
