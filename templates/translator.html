@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Language Translator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Easy to use</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </body>
+
+    <form action = "translated" method = "get">
+        <div class="form-group">
+            <center><h3><label for="exampleFormControlTextarea" class="form-label">Enter a text in any language</label></h3></center>
+             <textarea name = "text" placeholder = "Enter text to translate" class = "form-control" id = "exampleFormControlTextarea" rows= "6"></textarea>
+        </div>
+           
+        <div class = "form-group">
+            <center><h4><label for = "exampleFormControlSelect2">select language to convert</label></h4><center>
+            <select multiple class= "form-control" id = "exampleFormControlSelect2" name = "lang">
+                <option value = "hi" >Hindi</option>
+                <option value = "en" >English</option>
+                <option value = "gu" >Gujrati</option>
+                <option value = "zh-cn" >Chinese</option>
+                <option value = "ja" >Japanese</option>
+                <option value = "af" >Afrikaans</option>
+                 
+        </div>
+        <br>
+
+        <input type = "submit" class = "btn btn-primary" value = "submit">
+             
+            
+    </form>
+    <footer class="text-left text-lg-start">
+        <div>
+          <h4 class="text-dark">Design by > </h4>
+          <h6 class="text-dark"></h6>
+          <h6 class="text-dark"></h6>
+          <h6 class="text-dark"></h6>
+          {% comment %} <a class="text-dark" href="https://mdbootstrap.com/">Pranjali sharma</a>
+          <a class="text-dark" href="https://mdbootstrap.com/">Pranjali sharma</a>
+          <a class="text-dark" href="https://mdbootstrap.com/">Pranjali sharma</a> {% endcomment %}
+        </div>
+        <!-- Copyright -->
+      </footer>
+         
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Language Translator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Easy to use</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </body>
+    <div class = "container">
+        <br></br>
+    <center> <h1> Text Successfully Translated {{ ul_lang }} into {{ t_lang }} </h1> </center>
+    <hr></hr>
+    <center>
+        <font color = "purple">
+            <h3>
+    {{ translated }}
+            </h3>
+        </font>
+    </center>
+    </div>
+    {% comment %} <div class="form-group">
+         <center><h3><label for="exampleFormControlTextarea" class="form-label">Enter a text in any language</label></h3></center>
+         <textarea placeholder = "Translated Text " class = "form-control" id = "exampleFormControlTextarea" rows= "3"></textarea>
+    </div>
+     {% endcomment %}
+         
+</html>
